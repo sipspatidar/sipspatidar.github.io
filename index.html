@@ -22,16 +22,7 @@
     <link rel="stylesheet" href="preview/lmpixels-demo-panel.css" type="text/css">
     <!-- /This styles needs for demo -->
     
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','../../../../../www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-92992662-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
+    
 
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
@@ -79,7 +70,7 @@
               <a class="pt-trigger" href="#resume" data-animation="60" data-goto="3">Resume</a>
             </li>
             <li>
-              <a class="pt-trigger" href="#portfolio" data-animation="61" data-goto="4">Portfolio</a>
+              <a class="pt-trigger" href="#project" data-animation="61" data-goto="4">Project</a>
             </li>
             <!--<li>
               <a class="pt-trigger" href="#blog" data-animation="58" data-goto="5">Blog</a>
@@ -92,12 +83,10 @@
 
           <!-- Social buttons -->
           <ul class="social-links">
-            <li><a class="tip social-button" href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li> <!-- Full list of social icons: http://fontawesome.io/icons/#brand -->
-            <li><a class="tip social-button" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="tip social-button" href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
-            <!--<li><a class="tip social-button" href="#" title="Youtube"><i class="fa fa-youtube"></i></a></li>-->
-            <!--<li><a class="tip social-button" href="#" title="last.fm"><i class="fa fa-lastfm"></i></a></li>-->
-            <!--<li><a class="tip social-button" href="#" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>-->
+            <li><a class="tip social-button" target = "_blank" href="https://twitter.com/@Sumitpatidar007" title="Twitter"><i class="fa fa-twitter"></i></a></li> <!-- Full list of social icons: http://fontawesome.io/icons/#brand -->
+            <li><a class="tip social-button" target = "_blank" href="https://www.facebook.com/sumit.patidar.77" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="tip social-button" target = "_blank" href="https://plus.google.com/+SumitPatidarsips" title="Google Plus"><i class="fa fa-google-plus"></i></a></li><li><a class="tip social-button" target = "_blank" href="https://www.instagram.com/sips_patidar" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+           
           </ul>
           <!-- /Social buttons -->
         </div>
@@ -208,7 +197,7 @@
 			  <div class="row">
                 <div style="float:right"class="col-sm-12 col-md-4">
                   <div class="download-cv-block">
-                    <a class="button" target="_blank" href="#"> <i style="font-size:1.5em" class="fa fa-download"> </i>  Download CV </a>
+                    <a class="button" target="_blank" href="https://drive.google.com/open?id=0B8g5EayI7z9eUlhweklOZlo0Y1k"> <i style="font-size:1.5em" class="fa fa-download"> </i>  Download CV </a>
                   </div>
                 </div>
               </div>
@@ -319,14 +308,14 @@
 
 
             <!-- Portfolio Subpage -->
-            <section  class="pt-page pt-page-4" data-id="portfolio">
+            <section  class="pt-page pt-page-4" data-id="project">
               <div class="section-title-block">
-                <h2 class="section-title">Portfolio</h2>
+                <h2 class="section-title">Projects</h2>
                 <h5 class="section-description">My Best Works</h5>
               </div>
 
               <!-- Portfolio Content -->
-              <div hidden class="portfolio-content">
+              <div  class="portfolio-content">
                             
                 <!-- Portfolio filter -->
                 <ul id="portfolio_filters" class="portfolio-filters">
@@ -334,13 +323,16 @@
                     <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
                   </li>
                   <li>
-                    <a class="filter btn btn-sm btn-link" data-group="media">Media</a>
+                    <a class="filter btn btn-sm btn-link" data-group="PHP">PHP</a>
                   </li>
                   <li>
-                    <a class="filter btn btn-sm btn-link" data-group="illustration">Illustration</a>
+                    <a class="filter btn btn-sm btn-link" data-group="JAVA">JAVA</a>
                   </li>
                   <li>
-                    <a class="filter btn btn-sm btn-link" data-group="video">Video</a>
+                    <a class="filter btn btn-sm btn-link" data-group="Python">Python</a>
+                  </li>
+				  <li>
+                    <a class="filter btn btn-sm btn-link" data-group="Other">Other</a>
                   </li>
                 </ul>
                 <!-- End of Portfolio filter -->
@@ -349,160 +341,93 @@
                 <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
 
                   <!-- Portfolio Item 1 -->
-                  <figure class="item" data-groups='["all", "media"]'>
-                    <a class="ajax-page-load" href="portfolio-1.html">
+                  <figure class="item" data-groups='["all", "PHP"]'>
+                    <a target="_blank" href="http://www.svstutorial.eudaan.com/student_active">
                       <img src="images/portfolio/1.jpg" alt="">
                       <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Media</small>
+                        <h5 class="name">Student Active</h5>
+                        <small>PHP</small>
                         <i class="fa fa-file-text-o"></i>
                       </div>
                     </a>
                   </figure>
                   <!-- /Portfolio Item 1 -->
-
-                  <!-- Portfolio Item 2 -->
-                  <figure class="item" data-groups='["all", "video"]'>
-                    <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Praesent Dolor Ex" class="lightbox mfp-iframe">
+					<!-- Portfolio Item 2 -->
+                  <figure class="item" data-groups='["all", "PHP","JAVA"]'>
+                    <a target="_blank" href="http://www.khoyapaya.eudaan.com">
                       <img src="images/portfolio/2.jpg" alt="">
                       <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Video</small>
-                        <i class="fa fa-video-camera"></i>
+                        <h5 class="name">Khoyapaya</h5>
+                        <small>PHP/JAVA</small>
+                        <i class="fa fa-file-text-o"></i>
                       </div>
                     </a>
                   </figure>
                   <!-- /Portfolio Item 2 -->
-
-                  <!-- Portfolio Item 3 -->
-                  <figure class="item" data-groups='["all","illustration"]'>
-                    <a href="images/portfolio/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+<!-- Portfolio Item 3 -->
+                  <figure class="item" data-groups='["all", "PHP","JAVA"]'>
+                    <a target="_blank" href="http://www.svstutorial.eudaan.com/student_active">
                       <img src="images/portfolio/3.jpg" alt="">
                       <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Illustration</small>
-                        <i class="fa fa-image"></i>
+                        <h5 class="name">Room Manager</h5>
+                        <small>PHP</small>
+                        <i class="fa fa-file-text-o"></i>
                       </div>
                     </a>
                   </figure>
                   <!-- /Portfolio Item 3 -->
-
-                  <!-- Portfolio Item 4 -->
-                  <figure class="item" data-groups='["all", "media"]'>
-                    <a class="ajax-page-load" href="portfolio-1.html">
+<!-- Portfolio Item 4 -->
+                  <figure class="item" data-groups='["all", "Python"]'>
+                    <a target="_blank" href="http://www.svstutorial.eudaan.com/student_active">
                       <img src="images/portfolio/4.jpg" alt="">
                       <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Media</small>
+                        <h5 class="name">Break the Bricks</h5>
+                        <small>Python</small>
                         <i class="fa fa-file-text-o"></i>
                       </div>
                     </a>
                   </figure>
                   <!-- /Portfolio Item 4 -->
 
-                  <!-- Portfolio Item 5 -->
-                  <figure class="item" data-groups='["all", "illustration"]'>
-                    <a href="images/portfolio/5.jpg" class="lightbox" title="Aliquam Condimentum Magna Rhoncus">
+<!-- Portfolio Item 5 -->
+                  <figure class="item" data-groups='["all", "Python"]'>
+                    <a target="_blank" href="http://www.svstutorial.eudaan.com/student_active">
                       <img src="images/portfolio/5.jpg" alt="">
                       <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Illustration</small>
-                        <i class="fa fa-image"></i>
+                        <h5 class="name">Car Racing</h5>
+                        <small>Python</small>
+                        <i class="fa fa-file-text-o"></i>
                       </div>
                     </a>
                   </figure>
                   <!-- /Portfolio Item 5 -->
 
-                  <!-- Portfolio Item 6 -->
-                  <figure class="item" data-groups='["all", "media"]'>
-                    <a class="ajax-page-load" href="portfolio-1.html">
+<!-- Portfolio Item 6 -->
+                  <figure class="item" data-groups='["all", "Python"]'>
+                    <a target="_blank" href="http://www.svstutorial.eudaan.com/student_active">
                       <img src="images/portfolio/6.jpg" alt="">
                       <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Media</small>
+                        <h5 class="name">Flappy Bird</h5>
+                        <small>Python</small>
                         <i class="fa fa-file-text-o"></i>
                       </div>
                     </a>
                   </figure>
                   <!-- /Portfolio Item 6 -->
-
-                  <!-- Portfolio Item 7 -->
-                  <figure class="item" data-groups='["all", "video"]'>
-                    <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Nulla Facilisi" class="lightbox mfp-iframe">
+<!-- Portfolio Item 7 -->
+                  <figure class="item" data-groups='["all", "Other"]'>
+                    <a target="_blank" href="http://www.youtube.com/c/SVSTutorials">
                       <img src="images/portfolio/7.jpg" alt="">
                       <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Video</small>
-                        <i class="fa fa-video-camera"></i>
+                        <h5 class="name">SVS Tutorial</h5>
+                        <small>YouTube</small>
+                        <i class="fa fa-file-text-o"></i>
                       </div>
                     </a>
                   </figure>
                   <!-- /Portfolio Item 7 -->
 
-                  <!-- Portfolio Item 8 -->
-                  <figure class="item" data-groups='["all",  "media"]'>
-                    <a class="ajax-page-load" href="portfolio-1.html">
-                      <img src="images/portfolio/8.jpg" alt="">
-                      <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Media</small>
-                        <i class="fa fa-file-text-o"></i>
-                      </div>
-                    </a>
-                  </figure>
-                  <!-- /Portfolio Item 8 -->
-
-                  <!-- Portfolio Item 9 -->
-                  <figure class="item" data-groups='["all","illustration"]'>
-                    <a href="images/portfolio/9.jpg" class="lightbox" title="Mauris Neque Dolor">
-                      <img src="images/portfolio/9.jpg" alt="">
-                      <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Illustration</small>
-                        <i class="fa fa-image"></i>
-                      </div>
-                    </a>
-                  </figure>
-                  <!-- /Portfolio Item 9 -->
-
-                  <!-- Portfolio Item 10 -->
-                  <figure class="item" data-groups='["all", "video"]'>
-                    <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Donec Lectus Arcu" class="lightbox mfp-iframe">
-                      <img src="images/portfolio/10.jpg" alt="">
-                      <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Video</small>
-                        <i class="fa fa-video-camera"></i>
-                      </div>
-                    </a>
-                  </figure>
-                  <!-- /Portfolio Item 10 -->
-
-                  <!-- Portfolio Item 11 -->
-                  <figure class="item" data-groups='["all","illustration"]'>
-                    <a href="images/portfolio/11.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                      <img src="images/portfolio/11.jpg" alt="">
-                      <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Illustration</small>
-                        <i class="fa fa-image"></i>
-                      </div>
-                    </a>
-                  </figure>
-                  <!-- /Portfolio Item 11 -->
-
-                  <!-- Portfolio Item 12 -->
-                  <figure class="item" data-groups='["all","media"]'>
-                    <a class="ajax-page-load" href="portfolio-1.html">
-                      <img src="images/portfolio/12.jpg" alt="">
-                      <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Media</small>
-                        <i class="fa fa-file-text-o"></i>
-                      </div>
-                    </a>
-                  </figure>
-                  <!-- /Portfolio Item 12 -->
+                  
                 </div>
                 <!-- /Portfolio Grid -->
 
@@ -694,7 +619,7 @@
                   <div class="block-title">
                     <h3>Get in Touch</h3>
                   </div>
-                  <p>Social links.</p>
+                  <p></p>
                   <div class="contact-info-block">
                     <div class="ci-icon">
                       <i class="pe-7s-icon pe-7s-map-marker"></i>
