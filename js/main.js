@@ -5,6 +5,11 @@
 * Version: 1.0
 */
 
+
+	
+
+
+
 (function($) {
 "use strict";
     
@@ -120,6 +125,18 @@
 
     $(document).ready(function(){
 
+		var typed2 = new Typed('#typewritter', {
+    strings: ['&lt; Hello World /&gt;','&lt; I am Sumit Patidar /&gt;'],
+    typeSpeed: 40,
+    backSpeed: 20,
+    //fadeOut: true,
+    loop: true
+  });
+  
+	
+	
+	
+	
         // Initialize Portfolio grid
         var $portfolio_container = $("#portfolio-grid");
 
@@ -232,3 +249,4 @@
     });
 
 })(jQuery);
+
