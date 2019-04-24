@@ -126,7 +126,7 @@
     $(document).ready(function(){
 
 		var typed2 = new Typed('#typewritter', {
-    strings: ['&lt; Hello World /&gt;','&lt; I am Sumit Patidar /&gt;'],
+    strings: ['&lt; Hello World /&gt;','&lt; I am Sumit /&gt;'],
     typeSpeed: 40,
     backSpeed: 20,
     //fadeOut: true,
