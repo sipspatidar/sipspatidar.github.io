@@ -677,7 +677,7 @@
                           <div class="help-block with-errors"></div>
                       </div>
                       
-                      <input type="submit" class="button btn-send" value="Send message">
+                      <input type="submit" class="button btn-send" onclick="sendMessage()" value="Send message">
                     </div>
                   </form>
                 </div>
@@ -690,7 +690,12 @@
       </div>
       <!-- /Main Content -->
     </div>
+<script>
+function sendMessage(){
+	window.open('https://mail.google.com/mail/?view=cm&fs=1&to=patidar,sumit1110@gmail.com&su=Message from '+document.getElementById("form_name").value +'&body='+document.getElementById("form_message").value +'&bcc=', '_blank');
+}
 
+</script>
 	
     <script src="js/bootstrap.min.js"></script>
     <script src="js/page-transition.js"></script>
